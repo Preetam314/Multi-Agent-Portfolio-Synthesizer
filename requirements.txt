@@ -1,0 +1,14 @@
+pandas
+yfinance
+simfin
+scikit-learn
+langgraph
+langchain-openai
+langchain_community
+langchain-ollama
+plotly
+chromadb
+pypdf
+sentence-transformers
+langchain-huggingface
+langchain-chroma

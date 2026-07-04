@@ -1,0 +1,40 @@
+# =========================
+# Python & Environments
+# =========================
+venv/
+env/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# API Keys & Secrets
+# =========================
+.env
+.env.local
+
+# =========================
+# Local Data Caches
+# =========================
+# Ignores the hidden SimFin folder where the massive zip files are stored
+simfin_data/
+~/simfin_data/
+
+# (Optional) If you don't want to upload the output CSV, uncomment the line below. 
+# Since yours is <1000 rows, it's actually fine to push it so recruiters can see the data structure.
+# historical_fundamentals.csv
+
+# =========================
+# IDE & OS Files
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+
+#=================
+chroma_db/
+financial_clusters_3d.html
+financial_clusters_tsne_2d.html
